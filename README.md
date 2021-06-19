@@ -4,9 +4,11 @@ A responsive webpage consisting of a Area chart, Donut chart, Table and Cards.
 
 ### Prerequisites
 Please install all node packages from package.json
+Please install quasar cli
 
 ### Installing
 `npm install`
+`npm install -g @quasar/cli`
 
 ### Built With
 * [Quasar](https://quasar.dev/) - A vuejs Framework
