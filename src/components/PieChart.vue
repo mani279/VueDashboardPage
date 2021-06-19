@@ -1,14 +1,16 @@
 <template>
-<q-card class="q-mt-md" style="height:392px;margin-top:15px">
-    <div class="text-subtitle2 q-pa-md">Different Types of Sources</div>
-  <apexcharts
-  style="margin-top:20px"
-    height="280px"
-    type="donut"
-    :options="plotOptions"
-    :series="series"
-  ></apexcharts>
-</q-card>
+  <div class="q-pa-md">
+    <q-card class="q-mt-md" style="height:392px;margin-top:0px">
+        <div class="text-subtitle2 q-pa-md">Different Types of Sources</div>
+      <apexcharts
+      style="margin-top:10px"
+        height="280px"
+        type="donut"
+        :options="plotOptions"
+        :series="series"
+      ></apexcharts>
+    </q-card>
+  </div>
 </template>
 
 <script>
