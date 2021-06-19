@@ -1,5 +1,6 @@
 # VueDashboardPage
 A responsive webpage consisting of a Area chart, Donutchart, Table and Cards.
+![alt text](https://github.com/mani279/VueDashboardPage/blob/main/public/admin_dashboard_quasar.png?raw=true)
 
 
 ### Prerequisites
