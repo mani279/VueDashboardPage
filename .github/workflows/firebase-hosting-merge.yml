@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm install -g @quasar/cli && npm install && quasar build
+      - run: sudo npm install -g coffee-script && sudo npm install -g @quasar/cli && sudo npm install && sudo quasar build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
